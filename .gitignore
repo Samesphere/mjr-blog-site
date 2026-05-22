@@ -1,4 +1,8 @@
 node_modules/
+public/
+resources/
+.hugo_build.lock
+*.txt
 .env
 .env.local
 .env.production

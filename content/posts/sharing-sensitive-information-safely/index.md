@@ -15,6 +15,7 @@ So I built a single-source solution instead.
 
 ## The Problem
 
+
 One document. Two audiences. How do you serve different content from the same source without duplicating the document or risking exposure?
 
 ## The Solution: Inline `<int>` Tags
@@ -24,8 +25,6 @@ I developed a tagging system where `<int></int>` tags mark sensitive sections wi
 - Unauthenticated users see only public material
 - Administrators access everything
 - No duplicate documents, no accidental exposure
-
-![Audience-Based RAG Security Architecture](Audience-BasedRAGSecurity.jpg)
 
 ## Technical Implementation
 
@@ -50,3 +49,5 @@ You can test the system at the BizBrains web front-end:
 ## Roadmap
 
 Next: vectorising external files (DOCX, Google Slides, PDFs) while maintaining original formats through URL-based metadata storage.
+
+![Audience-Based Security in my RAG Pipeline (n8n)](Audience-BasedRAGSecurity.jpg)

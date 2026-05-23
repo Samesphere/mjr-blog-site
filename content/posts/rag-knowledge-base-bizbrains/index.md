@@ -38,6 +38,8 @@ In April 2026, I used Claude Code to recreate the system in one week, consolidat
 - **User Interface:** Coda buttons enabling status changes; [Instant Webhook Chrome Extension](/posts/instant-webhook-chrome-extension/) triggering n8n workflow checks
 - **Frontend:** Query interface for searching the vector store
 
+![Firing a webhook from the Chrome Extension inside BizBrains](FireWebhookExtension.jpg)
+
 ![BizBrains V3 Frontend Design](BizBrains-V3-Frontend-Design-4x3.jpg)
 
 ## Roadmap

@@ -23,6 +23,8 @@ An automation workflow that handles most of it. The moment an email arrives, it:
 
 ![Fuel Bakehouse n8n workflow](FuelBakehousen8nWorkflow.jpg)
 
+![Fuel Bakehouse workflow detail](FuelBakehouseDetail.jpg)
+
 ## The Technical Stack
 
 - **Gmail filter + label** to detect incoming quote requests the moment they arrive

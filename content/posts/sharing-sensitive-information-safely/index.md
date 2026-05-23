@@ -42,9 +42,10 @@ A subtle admin link gates access via password. Upon login, the server generates 
 
 You can test the system at the BizBrains web front-end:
 
-1. Search for "Reauthorizing Google accounts?"
-2. Observe how the system retrieves information with source links
-3. Examine source documents in the viewer
+1. [Click here](https://biz-brains.vercel.app/) to open the BizBrains web front-end
+2. Search for "Reauthorizing Google accounts?"
+3. Observe how the system retrieves information with source links
+4. Click links to examine source documents in the viewer
 
 ## Roadmap
 

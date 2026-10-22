@@ -5,6 +5,7 @@ showDate: false
 showAuthor: false
 showReadingTime: false
 showTableOfContents: false
+sharingLinks: false
 ---
 
 <div id="contact" style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-bottom:1.5em">

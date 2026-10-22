@@ -1,0 +1,39 @@
+/* Mark Reynolds brand scheme: cream, charcoal, teal, coral */
+:root {
+  --color-neutral: 250, 243, 232;
+  --color-neutral-50: 250, 243, 232;
+  --color-neutral-100: 243, 234, 220;
+  --color-neutral-200: 230, 220, 204;
+  --color-neutral-300: 208, 200, 186;
+  --color-neutral-400: 156, 156, 146;
+  --color-neutral-500: 112, 120, 114;
+  --color-neutral-600: 82, 94, 92;
+  --color-neutral-700: 63, 77, 75;
+  --color-neutral-800: 45, 59, 58;
+  --color-neutral-900: 36, 48, 47;
+  --color-neutral-950: 24, 32, 31;
+  /* Teal */
+  --color-primary-50: 236, 248, 246;
+  --color-primary-100: 208, 238, 234;
+  --color-primary-200: 163, 222, 214;
+  --color-primary-300: 110, 199, 188;
+  --color-primary-400: 66, 176, 163;
+  --color-primary-500: 42, 157, 143;
+  --color-primary-600: 36, 138, 126;
+  --color-primary-700: 30, 116, 106;
+  --color-primary-800: 26, 94, 86;
+  --color-primary-900: 22, 76, 70;
+  --color-primary-950: 12, 46, 42;
+  /* Coral */
+  --color-secondary-50: 253, 243, 240;
+  --color-secondary-100: 250, 228, 221;
+  --color-secondary-200: 245, 201, 188;
+  --color-secondary-300: 238, 166, 146;
+  --color-secondary-400: 231, 135, 110;
+  --color-secondary-500: 224, 122, 95;
+  --color-secondary-600: 200, 98, 72;
+  --color-secondary-700: 168, 78, 56;
+  --color-secondary-800: 138, 64, 47;
+  --color-secondary-900: 112, 54, 41;
+  --color-secondary-950: 64, 28, 20;
+}

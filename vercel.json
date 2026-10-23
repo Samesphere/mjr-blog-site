@@ -4,9 +4,9 @@
     "outputDirectory":  "public",
     "redirects":  [
                       {
-                          "destination":  "https://markjreynolds.com/:path*",
+                          "destination":  "https://markjreynolds.com/$1",
                           "permanent":  true,
-                          "source":  "/:path*",
+                          "source":  "/(.*)",
                           "has":  [
                                       {
                                           "value":  "build.markjreynolds.com",

@@ -1,5 +1,108 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "hugo --gc --minify",
-  "outputDirectory": "public"
+    "$schema":  "https://openapi.vercel.sh/vercel.json",
+    "buildCommand":  "hugo --gc --minify",
+    "outputDirectory":  "public",
+    "redirects":  [
+                      {
+                          "destination":  "https://markjreynolds.com/:path*",
+                          "permanent":  true,
+                          "source":  "/:path*",
+                          "has":  [
+                                      {
+                                          "value":  "build.markjreynolds.com",
+                                          "type":  "host"
+                                      }
+                                  ]
+                      },
+                      {
+                          "destination":  "/posts/",
+                          "permanent":  false,
+                          "source":  "/"
+                      },
+                      {
+                          "destination":  "/posts/sharing-sensitive-information-safely/",
+                          "permanent":  true,
+                          "source":  "/sharing-sensitive-information-safely"
+                      },
+                      {
+                          "destination":  "/posts/focus-monitor-distraction-alert/",
+                          "permanent":  true,
+                          "source":  "/focus-monitor-distraction-alert"
+                      },
+                      {
+                          "destination":  "/posts/rag-knowledge-base-bizbrains/",
+                          "permanent":  true,
+                          "source":  "/rag-knowledge-base-bizbrains"
+                      },
+                      {
+                          "destination":  "/posts/catering-quote-automation-case-study/",
+                          "permanent":  true,
+                          "source":  "/catering-quote-automation-case-study"
+                      },
+                      {
+                          "destination":  "/posts/instant-webhook-chrome-extension/",
+                          "permanent":  true,
+                          "source":  "/instant-webhook-chrome-extension"
+                      },
+                      {
+                          "destination":  "/posts/now-i-understand-why-everyone-is-raving-about-claude-code/",
+                          "permanent":  true,
+                          "source":  "/now-i-understand-why-everyone-is-raving-about-claude-code"
+                      },
+                      {
+                          "destination":  "/posts/printers-ip-addresses-and-11-floors-of-chaos-a-case-study-in-structure/",
+                          "permanent":  true,
+                          "source":  "/printers-ip-addresses-and-11-floors-of-chaos-a-case-study-in-structure"
+                      },
+                      {
+                          "destination":  "/posts/good-document-titles-dont-just-help-humans-they-help-your-rag-pipeline-too/",
+                          "permanent":  true,
+                          "source":  "/good-document-titles-dont-just-help-humans-they-help-your-rag-pipeline-too"
+                      },
+                      {
+                          "destination":  "/posts/10-minute-build-that-accelerates-zoom-prep/",
+                          "permanent":  true,
+                          "source":  "/10-minute-build-that-accelerates-zoom-prep"
+                      },
+                      {
+                          "destination":  "/posts/the-secret-gmail-automation-hack-that-saves-time-and-money/",
+                          "permanent":  true,
+                          "source":  "/the-secret-gmail-automation-hack-that-saves-time-and-money"
+                      },
+                      {
+                          "destination":  "/posts/i-built-a-chrome-extension-with-chatgpt-in-under-an-hour/",
+                          "permanent":  true,
+                          "source":  "/i-built-a-chrome-extension-with-chatgpt-in-under-an-hour--heres-how-it-went"
+                      },
+                      {
+                          "destination":  "/categories/solutions/",
+                          "permanent":  true,
+                          "source":  "/category/solutions"
+                      },
+                      {
+                          "destination":  "/categories/messy-updates/",
+                          "permanent":  true,
+                          "source":  "/category/messy-updates"
+                      },
+                      {
+                          "destination":  "/categories/case-studies/",
+                          "permanent":  true,
+                          "source":  "/category/case-studies"
+                      },
+                      {
+                          "destination":  "/posts/",
+                          "permanent":  true,
+                          "source":  "/category/thinking-out-loud"
+                      },
+                      {
+                          "destination":  "/about/",
+                          "permanent":  true,
+                          "source":  "/work-with-me"
+                      },
+                      {
+                          "destination":  "/posts/",
+                          "permanent":  true,
+                          "source":  "/search"
+                      }
+                  ]
 }

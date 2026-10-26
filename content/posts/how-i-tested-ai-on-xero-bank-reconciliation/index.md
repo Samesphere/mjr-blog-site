@@ -1,6 +1,6 @@
 ---
 title: "How I Tested AI on Xero Bank Reconciliation"
-date: 2026-10-27
+date: 2026-10-27T09:00:00+10:00
 draft: false
 slug: "how-i-tested-ai-on-xero-bank-reconciliation"
 description: "Xero truncates the bank feed reference Accounts needs. How I trained an AI agent to propose reconciliation matches, plus the nine steps I used."

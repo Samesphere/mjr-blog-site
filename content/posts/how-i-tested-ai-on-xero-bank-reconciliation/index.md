@@ -7,6 +7,7 @@ description: "Xero truncates the bank feed reference Accounts needs. How I train
 summary: "Xero cuts off the exact reference Accounts needs to match a payment. At a Gold Coast manufacturer I got an AI agent to do the detective work instead."
 tags: ["xero", "bank-reconciliation", "ai-automation", "ai-agents", "case-study"]
 categories: ["Solutions"]
+featureimagealt: "A bank feed card for Sample Supplies Pty Ltd whose reference INV 4471 Offic is torn off mid word, next to an empty dashed box with a question mark and a label reading Reference cut off."
 ---
 
 **TL;DR:** Xero cuts off the exact reference Accounts needs to match a payment. At a Gold Coast manufacturer I got an AI agent to do the detective work instead: find patterns in past reconciliations, follow the same rules Accounts follow, and propose matches for a human to approve. Testing looked very promising and I was in my flow until the boss pulled the plug on the experiment. Only the Bank Rules went live. Now I’m seeking opportunities to finish what I started.
